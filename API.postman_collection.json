@@ -1,0 +1,153 @@
+{
+	"id": "1099e5f2-964a-3f61-ef75-ec63aea211b4",
+	"name": "API",
+	"description": "",
+	"order": [
+		"dd07786e-b2e4-e955-d0fe-6c65b5fef1a1",
+		"622d1948-5157-b450-877c-a2276adaac0b",
+		"0943c0ca-d3f0-fafa-8aa8-cd7ab2aad7f2",
+		"ec73052a-8c6d-e61a-4854-09c3b82fd3f0",
+		"41a12dfc-476d-3cef-9ae5-82687ac2b756"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1646128577827,
+	"owner": "19811927",
+	"public": false,
+	"requests": [
+		{
+			"id": "0943c0ca-d3f0-fafa-8aa8-cd7ab2aad7f2",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/mens/621f56b19c0f330a05c1b121",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1646221996658,
+			"name": "get Men",
+			"description": "",
+			"collectionId": "1099e5f2-964a-3f61-ef75-ec63aea211b4",
+			"responses": []
+		},
+		{
+			"id": "41a12dfc-476d-3cef-9ae5-82687ac2b756",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/mens/621f407705bd6110d8d7159f",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1099e5f2-964a-3f61-ef75-ec63aea211b4",
+			"data": null,
+			"dataMode": "params",
+			"name": "delete mens",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1646217405654,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "622d1948-5157-b450-877c-a2276adaac0b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/mens",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1646215315135,
+			"name": "get Mens",
+			"description": "",
+			"collectionId": "1099e5f2-964a-3f61-ef75-ec63aea211b4",
+			"responses": [],
+			"rawModeData": "{\n\t\"ranking\":3,\n\t\"name\":\"CE\",\n\t\"dob\":\"25 JUN 1089\",\n\t\"country\":\"AL\",\n\t\"score\":\"1000\"\n}"
+		},
+		{
+			"id": "dd07786e-b2e4-e955-d0fe-6c65b5fef1a1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/mens",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1646222001220,
+			"name": "create Mens",
+			"description": "",
+			"collectionId": "1099e5f2-964a-3f61-ef75-ec63aea211b4",
+			"responses": [],
+			"rawModeData": "{\n\t\"ranking\":2,\n\t\"name\": \"BD\",\n\t\"dob\": \"02 jan 1090\",\n\t\"country\": \"uk\",\n\t\"score\": \"1900\"\n}"
+		},
+		{
+			"id": "ec73052a-8c6d-e61a-4854-09c3b82fd3f0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/mens/621f56b19c0f330a05c1b121",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1646222003802,
+			"name": "updat Mens",
+			"description": "",
+			"collectionId": "1099e5f2-964a-3f61-ef75-ec63aea211b4",
+			"responses": [],
+			"rawModeData": "{\n\t\"ranking\": 3\n}"
+		}
+	]
+}
